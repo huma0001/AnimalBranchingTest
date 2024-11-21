@@ -21,5 +21,7 @@ public class AnimalMain {
         dog.animalMood(false);
         cat.animalMood(true);
         cat.animalMood(false);
+
+        System.out.println("Ny ændring til commit");
     }
 }
