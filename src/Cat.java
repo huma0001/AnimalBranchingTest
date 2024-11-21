@@ -21,6 +21,11 @@ public class Cat extends Animal{
     }
 
     @Override
+    void jump(double distance) {
+        System.out.println(getName() + " jumped " + distance + " meters");
+    }
+
+    @Override
     boolean eatFood(String foodType) {
         return true;
     }

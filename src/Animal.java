@@ -9,6 +9,8 @@ public abstract class Animal {
         return name;
     }
 
+    abstract void jump(double distance);
+
     abstract void makeSound();
 
     abstract void animalMood(boolean mood);

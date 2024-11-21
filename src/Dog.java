@@ -4,6 +4,11 @@ public class Dog extends Animal{
         super(name);
     }
 
+    @Override
+    void jump(double distance) {
+        System.out.println(getName() + " jumped " + distance + " meters");
+    }
+
 
     @Override
     void makeSound() {
